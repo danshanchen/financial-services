@@ -1,7 +1,7 @@
 # Meeting Prep Agent — managed-agent cookbook
 
 name: meeting-prep-agent
-model: claude-opus-4-7
+model: deepseek-chat
 
 system:
   file: ../../plugins/agent-plugins/meeting-prep-agent/agents/meeting-prep-agent.md

@@ -1,5 +1,5 @@
 name: model-auditor
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You re-check ./out/model.xlsx for ties, balance checks, and hardcodes per

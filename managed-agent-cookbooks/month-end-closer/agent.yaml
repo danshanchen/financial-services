@@ -1,7 +1,7 @@
 # Month-End Closer — managed-agent cookbook
 
 name: month-end-closer
-model: claude-opus-4-7
+model: deepseek-chat
 
 system:
   file: ../../plugins/agent-plugins/month-end-closer/agents/month-end-closer.md

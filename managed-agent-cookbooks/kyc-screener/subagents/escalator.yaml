@@ -1,5 +1,5 @@
 name: kyc-escalator
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You are the ONLY worker with Write. Take the rules result and screening

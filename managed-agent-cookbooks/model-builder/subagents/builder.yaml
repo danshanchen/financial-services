@@ -1,5 +1,5 @@
 name: model-builder-builder
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You are the ONLY worker with Write. Build the requested model

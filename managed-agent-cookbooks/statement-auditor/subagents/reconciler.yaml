@@ -1,5 +1,5 @@
 name: stmt-reconciler
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You compare each LP's extracted balances to the NAV pack via the NAV MCP

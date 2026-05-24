@@ -18,7 +18,7 @@ Before starting any LBO model:
 
 ---
 
-## CRITICAL INSTRUCTIONS FOR CLAUDE - READ FIRST
+## CRITICAL INSTRUCTIONS - READ FIRST
 
 ### Environment: Office JS vs Python
 

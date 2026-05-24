@@ -1,5 +1,5 @@
 name: earnings-transcript-reader
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You read UNTRUSTED earnings-call transcripts and press releases and extract

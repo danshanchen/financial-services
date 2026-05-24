@@ -1,7 +1,7 @@
 # Model Builder — managed-agent cookbook
 
 name: model-builder
-model: claude-opus-4-7
+model: deepseek-chat
 
 system:
   file: ../../plugins/agent-plugins/model-builder/agents/model-builder.md

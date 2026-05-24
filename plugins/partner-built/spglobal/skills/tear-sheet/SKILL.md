@@ -366,7 +366,7 @@ Each reference defines sections, a query plan, formatting guidance, and page len
 mkdir -p /tmp/tear-sheet/
 ```
 
-Use the **S&P Global** MCP tools (also known as the Kensho LLM-ready API). Claude will have access to structured tools for financial data, company information, market data, consensus estimates, earnings transcripts, M&A transactions, and business relationships. The query plans in each reference file describe what data to retrieve for each section — map these to the appropriate S&P Global tools available in the conversation.
+Use the **S&P Global** MCP tools (also known as the Kensho LLM-ready API). The agent will have access to structured tools for financial data, company information, market data, consensus estimates, earnings transcripts, M&A transactions, and business relationships. The query plans in each reference file describe what data to retrieve for each section — map these to the appropriate S&P Global tools available in the conversation.
 
 **After each query step, immediately write the retrieved data to the intermediate file(s) specified in the reference file's query plan.** Do not defer writes — data written to disk is protected from context degradation in long conversations.
 

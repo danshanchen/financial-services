@@ -5,7 +5,7 @@
 # validates (length + character class) before the orchestrator sees it.
 
 name: gl-reconciler-reader
-model: claude-opus-4-7
+model: deepseek-chat
 
 system:
   text: |

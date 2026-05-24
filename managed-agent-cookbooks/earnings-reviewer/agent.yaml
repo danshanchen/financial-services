@@ -1,7 +1,7 @@
 # Earnings Reviewer — managed-agent cookbook
 
 name: earnings-reviewer
-model: claude-opus-4-7
+model: deepseek-chat
 
 system:
   file: ../../plugins/agent-plugins/earnings-reviewer/agents/earnings-reviewer.md

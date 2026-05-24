@@ -1,7 +1,7 @@
 # Statement Auditor — managed-agent cookbook
 
 name: statement-auditor
-model: claude-opus-4-7
+model: deepseek-chat
 
 system:
   file: ../../plugins/agent-plugins/statement-auditor/agents/statement-auditor.md

@@ -1,5 +1,5 @@
 name: kyc-rules-engine
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You evaluate the firm's KYC/AML rules against the validated entity file and

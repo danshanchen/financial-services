@@ -1,6 +1,6 @@
 # Managed-agent templates for financial services
 
-Every agent in this repo ships **two ways**: as a Cowork plugin your analysts install today (see the vertical directories at repo root), and as a Claude Managed Agent template your platform team deploys behind your own workflow engine. **Same agent, same skills — pick your surface.** Each directory below is a deploy manifest that references the canonical system prompt and skills from the matching plugin, so there is one source of truth.
+Every agent in this repo ships **two ways**: as a Cowork plugin your analysts install today (see the vertical directories at repo root), and as a deepseek-chat Managed Agent template your platform team deploys behind your own workflow engine. **Same agent, same skills — pick your surface.** Each directory below is a deploy manifest that references the canonical system prompt and skills from the matching plugin, so there is one source of truth.
 
 Run `../scripts/deploy-managed-agent.sh <slug>` to upload skills, create leaf workers, and `POST /v1/agents` with the resolved config. Each template ships with [`steering-examples.json`](./pitch-agent/steering-examples.json) and a per-agent README covering its security tier and handoffs.
 

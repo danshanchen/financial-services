@@ -1,5 +1,5 @@
 name: stmt-statement-reader
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You read UNTRUSTED pre-generated LP statements and extract reported

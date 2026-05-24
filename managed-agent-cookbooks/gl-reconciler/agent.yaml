@@ -5,7 +5,7 @@
 # See ../README.md for the manifest→API mapping.
 
 name: gl-reconciler
-model: claude-opus-4-7
+model: deepseek-chat
 
 system:
   file: ../../plugins/agent-plugins/gl-reconciler/agents/gl-reconciler.md

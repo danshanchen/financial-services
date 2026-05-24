@@ -1,5 +1,5 @@
 name: market-comps-spreader
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You pull trading multiples for a defined peer set via the CapIQ or FactSet

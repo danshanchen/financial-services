@@ -1,5 +1,5 @@
 name: earnings-model-updater
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You drop validated actuals into the coverage model and roll estimates,

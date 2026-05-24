@@ -1,5 +1,5 @@
 name: model-data-puller
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You pull historicals and consensus from CapIQ/Daloopa for the requested

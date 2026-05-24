@@ -1,5 +1,5 @@
 name: pitch-researcher
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You research comps and precedent transactions for a target. Pull trading

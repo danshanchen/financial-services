@@ -463,9 +463,9 @@ Valuation Implications:
 - Average 1 chart per page minimum (30-50 pages = 25-35+ charts)
 - Tables should break up large text blocks
 
-**CRITICAL PRINCIPLE 2**: Use Claude's DOCX and XLSX skills to programmatically create the report.
+**CRITICAL PRINCIPLE 2**: Use the agent'''s document and spreadsheet tools to programmatically create the report.
 
-**REQUIRED TOOLS** (Claude has built-in skills for these):
+**REQUIRED TOOLS** (the agent should have built-in tools for these):
 - **DOCX skill** - To create and manipulate Word documents
   - Read Task 1 .md file → Convert to Word formatting
   - Insert images from Task 4 chart files
@@ -483,7 +483,7 @@ Valuation Implications:
   - Write: `[Company]_Initiation_Report_[Date].docx`
 
 **DO NOT**: Manually copy/paste or describe what should be done
-**DO**: Use Claude's DOCX and XLSX skills to open files, extract data, and create the DOCX report
+**DO**: Use the agent'''s document and spreadsheet tools to open files, extract data, and create the DOCX report
 
 **Content Reuse Strategy**:
 - **Task 1 content (40-50% of report)**: Read .md file → Convert to Word format → Add charts
@@ -504,7 +504,7 @@ Valuation Implications:
 
 **Verify all input files exist:**
 
-Use Claude's file operations to check:
+Use the agent'''s file operations to check:
 - `[Company]_Research_Document_[Date].md` (Task 1)
 - `[Company]_Historical_Financials_[Date].xlsx` (Task 1)
 - `[Company]_Financial_Model_[Date].xlsx` (Task 2 with Task 3 tabs)
@@ -541,7 +541,7 @@ Before proceeding, extract all chart files from the Task 4 zip:
 └── sources_and_urls.txt
 ```
 
-**Open and inspect files using Claude skills:**
+**Open and inspect files using the agent's tools:**
 
 1. **Read Task 1 markdown file** - Use Read tool to view content
 2. **Open Task 2/3 Excel file** - Use XLSX skill to inspect tabs:
@@ -553,7 +553,7 @@ Before proceeding, extract all chart files from the Task 4 zip:
 
 ### Step 2: Extract Tables from Excel Using XLSX Skill
 
-**Use Claude's XLSX skill to extract data from Excel files:**
+**Use the agent'''s spreadsheet tools to extract data from Excel files:**
 
 #### Table 1: Page 1 Summary Financials
 
@@ -756,7 +756,7 @@ These sections interpret the financial model.
 #### Phase B: Copy Task 1 Content + Insert Charts
 **This is 40-50% of the report - mostly copy/paste + chart insertion**
 
-Use Claude's DOCX skill to:
+Use the agent'''s document tools to:
 
 1. **Initialize new DOCX document**
    - Create new Word document
@@ -839,7 +839,7 @@ Copy each section from Task 1 verbatim with formatting conversion:
 #### Phase C: Add Financial Analysis with Data from Task 2
 **This requires NEW WRITING interpreting quantitative data**
 
-Use Claude's DOCX and XLSX skills to:
+Use the agent'''s document and spreadsheet tools to:
 
 **SECTION 3: Financial Analysis (Pages 18-30)**
 
@@ -914,7 +914,7 @@ Use Claude's DOCX and XLSX skills to:
 #### Phase D: Add Valuation Analysis from Task 3
 **Mix of copying Task 3 analysis + inserting data from Excel**
 
-Use Claude's DOCX and XLSX skills to:
+Use the agent'''s document and spreadsheet tools to:
 
 **SECTION 4: Valuation Analysis (Pages 31-40)**
 
@@ -979,7 +979,7 @@ Use Claude's DOCX and XLSX skills to:
 
 #### Phase E: Add Appendices & Finalize
 
-Use Claude's DOCX skill to:
+Use the agent'''s document tools to:
 
 **SECTION 5: Appendices (Pages 41-50)**
 
@@ -1047,7 +1047,7 @@ BAD - Avoid:
 
 ## File Operations Summary
 
-**Throughout the entire assembly process, use Claude's DOCX and XLSX skills with actual file operations:**
+**Throughout the entire assembly process, use the agent'''s document and spreadsheet tools with actual file operations:**
 
 **Reading Input Files:**
 - ✓ Use Read tool: `[Company]_Research_Document_[Date].md` - Read Task 1 research
@@ -1062,7 +1062,7 @@ BAD - Avoid:
 - ✓ Use DOCX skill: Insert images (chart .png files)
 - ✓ Use DOCX skill: Save final file as `[Company]_Initiation_Report_[Date].docx`
 
-**Do NOT manually copy/paste. Use Claude's built-in skills to:**
+**Do NOT manually copy/paste. Use the agent'''s tools to:**
 1. Read from .md files (Task 1, Task 3) using Read tool
 2. Read from .xlsx files (Task 2 with Task 3 tabs) using XLSX skill
 3. Read from .png files (Task 4) as image files

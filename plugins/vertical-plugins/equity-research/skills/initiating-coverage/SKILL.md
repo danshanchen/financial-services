@@ -556,7 +556,7 @@ IF ANY VERIFICATION FAILS: Stop and complete missing task first.
 **Process**:
 1. **CRITICAL**: Verify ALL prerequisites before starting
 2. Load detailed instructions from references/task5-report-assembly.md
-3. Execute report assembly workflow using Claude's built-in skills:
+3. Execute report assembly workflow using the agent'''s built-in capabilities:
    - **Use DOCX skill** to create and manipulate the Word document
    - **Use XLSX skill** to read Excel data from Task 2/3
    - **Use Read tool** to read Task 1 and Task 3 markdown files
@@ -568,7 +568,7 @@ IF ANY VERIFICATION FAILS: Stop and complete missing task first.
 4. Save and deliver final DOCX report
 
 **Key Principles**:
-- Use Claude's DOCX and XLSX skills (NOT Python libraries)
+- Use the agent'''s document creation and spreadsheet tools (NOT Python libraries)
 - Use actual file operations (read .md/.xlsx/.png files, write .docx file)
 - Good equity research reports are text-dense with lots of illustrating images (60-80% page coverage, 1+ chart per page)
 
@@ -664,7 +664,7 @@ IF prerequisites are missing:
 ```
 User: "Use initiating-coverage, Task 5 for Tesla"
 
-Claude: "Starting Task 5: Report Assembly for Tesla
+Agent: "Starting Task 5: Report Assembly for Tesla
 
 VERIFICATION - Checking prerequisites:
 - Task 1 (Company research)... ❌ NOT FOUND

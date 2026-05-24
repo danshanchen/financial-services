@@ -1,7 +1,7 @@
 # Pitch Agent — managed-agent cookbook
 
 name: pitch-agent
-model: claude-opus-4-7
+model: deepseek-chat
 
 system:
   file: ../../plugins/agent-plugins/pitch-agent/agents/pitch-agent.md

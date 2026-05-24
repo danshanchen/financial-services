@@ -1,7 +1,7 @@
 # Market Researcher — managed-agent cookbook
 
 name: market-researcher
-model: claude-opus-4-7
+model: deepseek-chat
 
 system:
   file: ../../plugins/agent-plugins/market-researcher/agents/market-researcher.md

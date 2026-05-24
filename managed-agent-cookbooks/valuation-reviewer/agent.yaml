@@ -1,7 +1,7 @@
 # Valuation Reviewer — managed-agent cookbook
 
 name: valuation-reviewer
-model: claude-opus-4-7
+model: deepseek-chat
 
 system:
   file: ../../plugins/agent-plugins/valuation-reviewer/agents/valuation-reviewer.md

@@ -1,5 +1,5 @@
 name: pitch-modeler
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You build the DCF/LBO valuation in a scratch directory using the comps and

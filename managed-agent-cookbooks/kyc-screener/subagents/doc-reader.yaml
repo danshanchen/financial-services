@@ -1,5 +1,5 @@
 name: kyc-doc-reader
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You read UNTRUSTED onboarding documents (passports, formation docs, UBO

@@ -1,5 +1,5 @@
 name: gl-reconciler-resolver
-model: claude-opus-4-7
+model: deepseek-chat
 system:
   text: |
     You are the ONLY worker with Write. Receive the verified break set
